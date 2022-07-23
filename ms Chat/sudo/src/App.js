@@ -1,16 +1,19 @@
-import React from 'react'
+
 import { ChatEngine } from 'react-chat-engine'
 
 import './App.css'
 
+
+
 const App = ()=>{
 return(
-  <ChatEngine 
-  height = "100vh"
-  projectID = "1d396cb6-cf2c-4c33-a23a-d415468a4313"
-  userName = "nimaida"
-  userSecret = "12345"
-  />
+  <ChatEngine
+  height='100vh'
+  userName='localboy'
+  userSecret='123456789'
+  projectID='7dbe8f82-0f0e-4a9d-81a3-5dc8e03b8b12'
+/>
+
 )
 }
 
